@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@font-face {
+  font-family: "dogma_demoregular";
+  src: url("../fonts/dogma/dogma-webfont.woff2") format("woff2"), url("../fonts/dogma/dogma-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Poppins";
+}
+
+h2, .h2, h3, .h3 {
+  font-family: "Poppins" !important;
+}
+
+#txt-william {
+  font-family: "Poppins" !important;
+  color: #ffffff !important;
+  letter-spacing: 0.01vw !important;
+}
+#txt-william::-moz-selection {
+  background: transparent;
+}
+#txt-william::selection {
+  background: transparent;
+}
+#txt-william:hover {
+  filter: opacity(90%);
+}
+
+#txt-codigo {
+  font-family: "Ubuntu Mono";
+  text-transform: lowercase !important;
+  color: #b0d89c !important;
+}
+
+#about {
+  background: rgb(111, 142, 255);
+  background: linear-gradient(90deg, rgb(111, 142, 255) 6%, rgb(225, 100, 232) 100%);
+  height: 8vh !important;
+}
+
+#williampng {
+  transform: scale(2);
+}
+
+#txt-descripcion {
+  color: #ffffff !important;
+}
+
+#txt-personalidad {
+  line-height: 0.2vh;
+}
+
+#titulo1, #titulo2 {
+  text-transform: none !important;
+}
+
+#experience {
+  font-family: "Poppins" !important;
+}
+
+#titulo-container1, #titulo-container2 {
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#txt-lua, #txt-purple {
+  background: -webkit-linear-gradient(90deg, rgb(111, 142, 255) 6%, rgb(225, 100, 232) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#williamdraw1, #williamdraw2 {
+  position: relative;
+  width: 20vw;
+}
+
+#invite {
+  width: 10vw;
+}
+#invite:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+#whiteh2, #whiteh3 {
+  color: #ffffff !important;
+}
+
+#education {
+  background-color: #3c3c3c !important;
+}
+
+.codigosvg {
+  width: 10vw;
+}
+@media (max-width: 320px) {
+  .codigosvg {
+    width: 40vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .codigosvg {
+    width: 35vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .codigosvg {
+    width: 40vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 414px) and (max-width: 600px) {
+  .codigosvg {
+    width: 25vw;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .codigosvg {
+    width: 20vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .codigosvg {
+    width: 15vw;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .codigosvg {
+    width: 10vw;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .codigosvg {
+    width: 10vw;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .codigosvg {
+    width: 15vw;
+  }
+}
+@media (min-width: 1920px) {
+  .codigosvg {
+    width: 10vw;
+  }
+}
+
+.williamsvg {
+  width: 40vw;
+}
+@media (max-width: 320px) {
+  .williamsvg {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .williamsvg {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .williamsvg {
+    width: 70vw;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 414px) and (max-width: 600px) {
+  .williamsvg {
+    width: 60vw;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .williamsvg {
+    width: 50vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .williamsvg {
+    width: 40vw;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .williamsvg {
+    width: 40vw;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .williamsvg {
+    width: 30vw;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .williamsvg {
+    width: 25vw;
+  }
+}
+@media (min-width: 1920px) {
+  .williamsvg {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 320px) {
+  #txt-descripcion {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  #txt-descripcion {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  #txt-descripcion {
+    display: none;
+  }
+}/*# sourceMappingURL=felipe.css.map */
